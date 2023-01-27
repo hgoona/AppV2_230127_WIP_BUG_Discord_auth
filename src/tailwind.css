@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply font-fancy;
+	}
+	h1 {
+		@apply font-fancy
+		font-medium
+		/* text-xl */;
+	}
+	,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		/* @apply font-semibold; */
+		/* @apply font-tTitle; */
+	}
+}
